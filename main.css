@@ -13,11 +13,12 @@ h1 {
   color: #00FFAA;
 }
 
-a {
+.nucky {
   color: rgb(46,105,163);
-  font-size: 1.25em;
+  font-size: 2.25rem;
   text-decoration: none;
 }
+
 .footer {
 position: absolute;
 right: 0;
