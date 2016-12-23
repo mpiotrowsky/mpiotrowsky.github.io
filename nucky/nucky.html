@@ -1,39 +1,49 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="nucky.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-    <title>Nucky</title>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="nucky.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="lightcase.css">
+  <script type="text/javascript" src="lightcase.js"></script>
+  <script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('a[data-rel^=lightcase]').lightcase();
+	});
+  </script>
+  <title>Nucky</title>
 </head>
 <body>
-<a class="logo" href="nucky.html">
-<h1>Nucky</h1>
-</a>
-<ul id="nav">
+  <a class="logo" href="nucky.html">
+    <h1>Nucky</h1>
+  </a>
+  <ul id="nav">
     <li><a href="2011.html">2011</a></li>
     <li><a href="2012.html">2012</a></li>
     <li><a href="2013.html">2013</a></li>
     <li><a href="2014.html">2014</a></li>
     <li><a href="2015.html">2015</a></li>
     <li><a href="2016.html">2016</a></li>
-</ul>
-<div>
-<p>
-Hej.
-</p>
-<p>
-Nazywam się Nucky.
-</p>
-<p>
-Jestem kochanym Cocker spanielem.
-</p>
-</div>
-<img src="image/DSC01627.jpg" alt="nucky" />
-<div class="footer">
-<p>Copyright &copy; 2016 Nucky &amp; mpiotrowsky</p>
-</div>
+  </ul>
+  <div>
+    <p>
+      Hej.
+    </p>
+    <p>
+      Nazywam się Nucky.
+    </p>
+    <p>
+      Jestem kochanym Cocker spanielem.
+    </p>
+  </div>
+  <a href="image/2011/extra/DSC01627.jpg" data-rel="lightcase">
+  <img src="image/DSC01627.jpg" alt="Smutny, mały Nucky" />
+  </a>
+  <div class="footer">
+    <p>Copyright &copy; 2016 Nucky &amp; mpiotrowsky</p>
+  </div>
 </body>
 </html>
