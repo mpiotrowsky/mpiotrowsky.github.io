@@ -2,29 +2,39 @@ body {
 	height: 100%;
 	width: auto;
 	margin: 0;
+  font-family: 'Raleway', sans-serif;
 	text-align: center;
-  background-image: url("/image/bg1.jpg");
+  color: #333;
 }
 p {
   font-size: 2rem;
 }
 
 h1 {
-	color: white;
-  /* color: #00FFAA; */
+ color: #333;
 }
 
-.nucky a {
-  color: white;
+ul {
+  list-style: none;
+}
+
+a {
+  color: #333;
   font-size: 2.25rem;
   text-decoration: none;
 }
 
-.footer {
-position: absolute;
-right: 0;
-bottom: 0;
-left: 0;
-padding: 1rem;
-text-align: center;
+a:hover {
+  color: #2E86AB;
+  transition: all 500ms ease;
+}
+
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
 }
