@@ -1,0 +1,338 @@
+body {
+    color: #333;
+    background-color: #F5F5F5;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+.navbar-header .navbar-brand {
+    color: #333;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+.navbar-header .navbar-brand:hover {
+    color: #6AA84F;
+    transition: all 500ms ease;
+}
+
+.navbar-static-top {
+    background-color: #F5F5F5;
+    border-width: 0 0 0;
+    margin-bottom: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: none;
+}
+
+#navbar a {
+    color: #333;
+    font-size: 1.25em;
+    padding: 10px;
+}
+
+#navbar a:hover {
+    color: #6AA84F;
+    transition: all 500ms ease;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333;
+    
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #6AA84F;
+    transition: all 500ms ease;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: #6AA84F;
+    border: none;
+}
+
+.navbar-default:focus {
+  border-width: 0 0 0 0;
+}
+
+.navbar-default .navbar-collapse {
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-toggle .icon-bar {
+      transition: 500ms ease;
+}
+.navbar-toggle.collapsed .icon-bar:nth-child(2) {
+    transform: rotate(0)translateY(0)translateX(0);
+}
+.navbar-toggle.collapsed .icon-bar:nth-child(3) {
+    opacity:1;
+}
+.navbar-toggle.collapsed .icon-bar:nth-child(4) {
+    transform:rotate(0)translateY(0)translateX(0);
+}
+.navbar-toggle .icon-bar:nth-child(2) {
+    transform: rotate(-45deg)translateY(5px)translateX(-5px);
+}
+.navbar-toggle .icon-bar:nth-child(3) {
+    opacity: 0;
+}
+.navbar-toggle .icon-bar:nth-child(4) {
+    transform:rotate(45deg)translateY(-4px)translateX(-3px);
+}
+
+
+#welcome {
+    background-color: #F5F5F5;
+}
+
+#welcome .container-fluid {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/chart.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+#welcome h1 {
+    font-size: 5rem;
+    color: #F5F5F5;
+    font-weight: 700;
+    float: left;
+    clear: both;
+    padding-top: 10rem;
+
+}
+
+#welcome h2 {
+    font-size: 5rem;
+    color: #6AA84F;
+    font-weight: 700;
+    float: left;
+    clear: both;
+}
+
+.contact-btn {
+    text-align: center;
+    font-size: 2em;
+    color: #F5F5F5;
+    clear: both;
+    padding-top: 15rem;
+    margin-bottom: 3rem;
+}
+
+.btn-warning {
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #EDA033;
+
+}
+
+.btn-warning:hover {
+    background-color: #D78A1D;
+    transition: all 500ms ease;
+}
+
+
+.img-responsive {
+    max-height: 200px;
+    margin: 0 auto;
+}
+
+
+#services {
+    background-color: #EFEFEF;
+    padding-bottom: 2rem;
+}
+
+#services h2 {
+    color: #6AA84F;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+#services h3 {
+    color: #6AA84F;
+    text-align: center;
+}
+
+#services .col-md-4 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+#services p {
+    text-align: center;
+}
+
+
+#experience {
+    background-color: #F5F5F5;
+    padding-bottom: 2rem;
+}
+
+#experience h2 {
+    color: #6AA84F;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+#experience table {
+    text-align: center;
+}
+
+#experience .table-responsive {
+    border: 0;
+}
+
+#experience table td {
+    border-top: 0;
+}
+
+#experience .table .year {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-bottom: 0;
+    padding-left: 5rem;
+}
+
+#experience .table .job {
+    color: #6AA84F;
+    font-size: 1.5em;
+    text-align: left;
+    padding-bottom: 0;
+    padding-left: 4rem;
+}
+
+#experience .table .job-info {
+    color: #333;
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: 0;
+    padding-left: 4rem;
+}
+
+
+#benefits {
+    background-color: #6AA84F;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+#benefits h2 {
+    color: #F5F5F5;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+#benefits h3 {
+    color: #F5F5F5;
+}
+
+#benefits .col-md-4 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+
+#reviews h2 {
+    color: #6AA84F;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.carousel-content {
+    color: #333;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
+.carousel-control.right {
+    background-image: none;
+    color: #6AA84F;
+    transition: all 500ms ease;
+}
+
+.carousel-control.left {
+    background-image: none;
+    color: #6AA84F;
+    transition: all 500ms ease;
+}
+
+
+#about {
+    background-color: #EFEFEF;
+}
+
+#about h2 {
+    color: #6AA84F;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+#about img {
+    max-height: 300px;
+    margin-bottom: 4rem;
+}
+
+#contact {
+    background-color: #6AA84F;
+}
+
+#contact h2 {
+    color: #F5F5F5;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+#contact h3 {
+    color: #F5F5F5;
+    padding-bottom: 4rem;
+}
+
+
+footer {
+    padding-top: 2rem;
+    background-color: #434343;
+    font-weight: 400;
+}
+
+footer p {
+    color: #F5F5F5;
+}
+
+footer a {
+    color: #F5F5F5;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #6AA84F;
+    transition: all 500ms ease;
+}
+
+.copyright {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5em;
+}
+
+.credits {
+    padding-top: 1rem;
+}
