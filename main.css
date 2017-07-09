@@ -29,6 +29,10 @@ a:hover {
   transition: all 500ms ease;
 }
 
+.muted {
+  font-size: 0.5em;
+}
+
 
 footer {
   position: absolute;
