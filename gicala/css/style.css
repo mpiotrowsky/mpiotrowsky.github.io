@@ -106,7 +106,7 @@ h2 {
 #welcome h1 {
     font-size: 5rem;
     color: #F5F5F5;
-    font-weight: 700;
+    font-weight: 900;
     float: left;
     clear: both;
     padding-top: 10rem;
@@ -116,7 +116,7 @@ h2 {
 #welcome h2 {
     font-size: 5rem;
     color: #6AA84F;
-    font-weight: 700;
+    font-weight: 900;
     float: left;
     clear: both;
 }
@@ -145,7 +145,7 @@ h2 {
 
 
 .img-responsive {
-    max-height: 200px;
+    max-height: 175px;
     margin: 0 auto;
 }
 
