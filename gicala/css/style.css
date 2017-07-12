@@ -110,7 +110,7 @@ h2 {
 
 }
 
-#welcome h1 {
+.welcome h1 {
     font-size: 5rem;
     color: #F5F5F5;
     font-weight: 900;
@@ -120,7 +120,7 @@ h2 {
 
 }
 
-#welcome h2 {
+.welcome h2 {
     font-size: 5rem;
     color: #6AA84F;
     font-weight: 900;
@@ -163,24 +163,26 @@ h2 {
     padding-bottom: 2rem;
 }
 
-#services h2 {
+.services h2 {
     color: #6AA84F;
     padding-top: 2rem;
     padding-bottom: 4rem;
 }
 
-#services h3 {
+.services h3 {
     color: #6AA84F;
     text-align: center;
 }
 
-#services .col-md-4 {
+.services .col-md-4 {
     padding-left: 6rem;
     padding-right: 6rem;
 }
 
-#services p {
+.services ul {
+    padding-left: 0;
     text-align: center;
+    list-style-type: none;
 }
 
 
@@ -190,32 +192,32 @@ h2 {
     padding-bottom: 2rem;
 }
 
-#experience h2 {
+.experience h2 {
     color: #6AA84F;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
-#experience table {
+.experience table {
     text-align: center;
 }
 
-#experience .table-responsive {
+.experience .table-responsive {
     border: 0;
 }
 
-#experience table td {
+.experience .table tbody tr td {
     border-top: 0;
 }
 
-#experience .table .year {
+.experience .table .year {
     font-weight: bold;
     font-size: 1.5em;
     padding-bottom: 0;
     padding-left: 5rem;
 }
 
-#experience .table .job {
+.experience .table .job {
     color: #6AA84F;
     font-size: 1.5em;
     text-align: left;
@@ -223,7 +225,7 @@ h2 {
     padding-left: 4rem;
 }
 
-#experience .table .job-info {
+.experience .table .job-info {
     color: #333;
     font-size: 1.1em;
     text-align: left;
@@ -238,17 +240,17 @@ h2 {
     padding-bottom: 4rem;
 }
 
-#benefits h2 {
+.benefits h2 {
     color: #F5F5F5;
     padding-top: 2rem;
     padding-bottom: 4rem;
 }
 
-#benefits h3 {
+.benefits h3 {
     color: #F5F5F5;
 }
 
-#benefits .col-md-4 {
+.benefits .col-md-4 {
     padding-left: 6rem;
     padding-right: 6rem;
 }
@@ -258,7 +260,7 @@ h2 {
     padding-top: 1rem;
 }
 
-#reviews h2 {
+.reviews h2 {
     color: #6AA84F;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -295,13 +297,13 @@ h2 {
     padding-top: 1rem;
 }
 
-#about h2 {
+.about h2 {
     color: #6AA84F;
     padding-top: 2rem;
     padding-bottom: 4rem;
 }
 
-#about img {
+.about img {
     max-height: 300px;
     margin-bottom: 4rem;
 }
@@ -311,13 +313,13 @@ h2 {
     padding-top: 1rem;
 }
 
-#contact h2 {
+.contact h2 {
     color: #F5F5F5;
     padding-top: 2rem;
     padding-bottom: 4rem;
 }
 
-#contact h3 {
+.contact h3 {
     color: #F5F5F5;
     padding-bottom: 4rem;
 }
